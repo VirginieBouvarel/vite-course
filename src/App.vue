@@ -9,8 +9,11 @@ import HelloWorld from "./components/HelloWorld.vue";
   <HelloWorld msg="Hello Vue 3 + Vite" />
 </template>
 
-<style>
+<style lang="pcss">
 #app {
+  & p {
+    color: orange;
+  }
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
